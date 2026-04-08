@@ -47,5 +47,20 @@ public class Primitives {
         float temperature = 43.7f;
         System.out.println("Height: " + height + ", pi: " + pi + ", temperature: " + temperature );
 
+        double averagePrice;
+        averagePrice = 234234.432;
+        System.out.println("Average Price:" +averagePrice);
+
+        char gender, membership;
+        gender = 'M'; //mapped to ascii code=77
+        membership = 'G'; //mapped to ascii code=71
+        System.out.println("Gender:" +gender);
+        System.out.println("Membership:" +membership);
+
+        char ch = 97; //allowed since directly assigning ascii code
+        System.out.println(ch);
+
+        boolean loggedInStatus; //true/false (busy, meetinng, away, available)
+        loggedInStatus = true;
     }
 }
