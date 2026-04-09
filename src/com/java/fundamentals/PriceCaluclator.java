@@ -10,7 +10,7 @@ public class PriceCaluclator {
         System.out.println("Enter Age: ");
         byte age = sc.nextByte();
         System.out.println("Enter the Membership type Silver->(S), Gold-(G), Diamond-(D) or Bronze-(B):");
-        char membershipType = sc.next().charAt(0);
+        char membershipType = sc .next().charAt(0);
         double discountPercentage;
         double discountPrice;
         double priceAfterDiscount;
