@@ -17,7 +17,7 @@ public class LoopTest1 {
 
 // for print numbers from N to 1
 
- class PrintNto1 {
+   class PrintNto1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
